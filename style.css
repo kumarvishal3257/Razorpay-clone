@@ -1,0 +1,14 @@
+.payment-card img{
+    transition: bacground-color 0.4s linear;
+}
+.payment-card:hover img{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #85c1ba 100%);
+}
+.wave{
+    opacity: 0;
+    transition: all 0.4s ease-in;
+}
+.payment-card:hover .wave{
+    opacity: 1;
+}
